@@ -2,7 +2,7 @@
 
 const hostname = window.location.hostname;
 const port = window.location.port;
-const base_url = window.location.protocol + "//" + hostname + ":" + port + "/"; 
+const base_url = window.location.protocol + "//" + hostname + ":" + port + "/";
 
 const pathName = () => window.location.pathname;
 const active = (path = '') => (pathName() == `/${path}`) ? 'active' : null;
@@ -29,7 +29,12 @@ const navbar = `
                             class="fa fa-address-card fa-lg"></span>
                         Contact</a></li>
             </ul>
+            
         </div>
+        <span class="navbar-text">
+                <a data-toggle="modal" data-target="#loginModal">
+                <span class="fa fa-sign-in"></span> Login</a>
+            </span>
     </div>
 </nav>`;
 
