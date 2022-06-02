@@ -33,7 +33,9 @@ const navbar = `
         </div>
         <span class="navbar-text">
                 <a data-toggle="modal" data-target="#loginModal">
-                <span class="fa fa-sign-in"></span> Login</a>
+                    <span class="fa fa-sign-in"></span> 
+                    Login
+                </a>
             </span>
     </div>
 </nav>`;
