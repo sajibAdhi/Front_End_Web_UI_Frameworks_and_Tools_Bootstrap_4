@@ -32,7 +32,7 @@ const navbar = `
             
         </div>
         <span class="navbar-text">
-                <a data-toggle="modal" data-target="#loginModal">
+                <a id="login">
                     <span class="fa fa-sign-in"></span> 
                     Login
                 </a>
